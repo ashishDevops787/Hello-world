@@ -35,6 +35,8 @@
 	<artifactId>maven-compiler-plugin</artifactId>
 	<version>3.0</version>
         <configuration>
+	  <fork>true</fork>
+          <executable>/home/ubuntu/jdk-18.0.1.1/bin</executable>	
           <source>1.8</source>
           <target>1.8</target>
         </configuration>
